@@ -123,7 +123,7 @@ function processCats(delta)
                 if (cat.wantToHouse)
                 {
                     if (crossedDoor != null && crossedDoor >= 0 && crossedDoor < FEYNIK_WIDTH_BY_LEVEL(cat.assignedLevel)
-                        && feynik.length >= cat.assignedLevel - 1 && feynik[cat.assignedLevel][crossedDoor] != null)
+                        && feynik.length >= cat.assignedLevel && feynik[cat.assignedLevel][crossedDoor] != null)
                     {
                         //console.log("Crossing " + crossedDoor);
                         const destination = destinationHouse(cat.assignedLevel, crossedDoor);
