@@ -104,7 +104,7 @@ function processCats(delta)
             case "walking":
             {
                 let newX;
-                const shiftX = CAT_SPEED * (1 + cat.high * 1.4) * delta;
+                const shiftX = CAT_SPEED * (1 + cat.high * 1.7) * delta;
                 if (cat.dir === "left")
                 {
                     newX = cat.x - shiftX;

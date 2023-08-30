@@ -30,8 +30,8 @@ function processVictim(delta)
             victimProgress = 1;
             shakeScreen(0.8);
 
-            if (tutorial1status === 1) tutorial1status = 2;
-            if (tutorial2status === 1) tutorial2status = 2;
+            tutorial1status = 2;
+            tutorial2status = 2;
             gameOverNotification = true;
             gameOverScore = cats.length;
 
